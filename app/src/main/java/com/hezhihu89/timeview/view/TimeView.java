@@ -9,7 +9,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-
 import com.hezhihu89.timeview.R;
 
 
@@ -18,14 +17,12 @@ import com.hezhihu89.timeview.R;
  */
 public class TimeView extends TextView {
 
-    private int recLen = 11;
     private long hours;
     private long minutes;
     private long seconds;
     private long diff;
     private long days;
     private long time = 0;
-    private BufferType mBufferType = BufferType.NORMAL;
 
     public TimeView(Context context) {
         this(context, null);
